@@ -1,5 +1,5 @@
 export const profile = {
-  name: "Jesús",
+  name: "Jesús Rodríguez",
   role: "Full Stack Developer",
   focus: "AI Agents, Automatización, Data",
   location: "Guadalajara, MX",
@@ -10,7 +10,7 @@ export const profile = {
 };
 
 export const aboutParagraphs = [
-  "Estudio la Licenciatura en Inteligencia Artificial y Ciencia de Datos en el Centro Universitario de Guadalajara, con una base técnica previa en programación por CETis 14. Mi trabajo combina desarrollo full-stack con ingeniería de datos y agentes de IA aplicados a problemas reales.",
+  "Estudio la Licenciatura en Inteligencia Artificial y Ciencia de Datos en el Centro Universitario de Guadalajara, con una base técnica previa en programación por CETis 14. Mi trabajo combina desarrollo full-stack con Licenciatura de datos y agentes de IA aplicados a problemas reales.",
   "Actualmente mantengo Fiby Dog, un CRM/ERP de e-commerce en producción, y desarrollo herramientas propias como un asistente de código basado en LangGraph con recuperación aumentada (RAG).",
 ];
 
@@ -58,4 +58,14 @@ export const projects: Project[] = [
 export const education = [
   { date: "2024 — Presente", title: "Lic. en Inteligencia Artificial y Ciencia de Datos", place: "CUGDL" },
   { date: "2021 — 2024", title: "Técnico en Programación", place: "CETis 14" },
+];
+
+export const navItems = [
+  { href: "#hero", label: "Inicio" },
+  { href: "#stats", label: "GitHub" },
+  { href: "#about", label: "Sobre mí" },
+  { href: "#stack", label: "Stack" },
+  { href: "#projects", label: "Proyectos" },
+  { href: "#education", label: "Educación" },
+  { href: "#contact", label: "Contacto" },
 ];
