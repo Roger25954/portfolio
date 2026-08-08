@@ -2,7 +2,7 @@ import { education } from "@/lib/data";
 
 export default function Education() {
   return (
-    <section className="px-6 md:px-14 py-16 border-t border-hairline">
+    <section id="education" className="px-6 md:px-14 py-16 border-t border-hairline">
       <h2 className="font-display text-2xl font-semibold mb-7">Educación</h2>
       <div className="flex flex-col">
         {education.map((e) => (

@@ -2,7 +2,7 @@ import { stackGroups } from "@/lib/data";
 
 export default function Stack() {
   return (
-    <section className="px-6 md:px-14 py-16 border-t border-hairline">
+    <section id="stack" className="px-6 md:px-14 py-16 border-t border-hairline">
       <h2 className="font-display text-2xl font-semibold mb-7">Stack técnico</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-7">
         {stackGroups.map((group) => (
