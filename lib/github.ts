@@ -77,7 +77,14 @@ export async function getContributions(username: string): Promise<ContributionsD
   );
 
   let currentStreak = 0;
-  for (let i = days.length - 1; i >= 0; i--) {
+  let startIndex = days.length - 1;
+
+  // Si hoy (el último día) no tiene contribuciones, empieza desde ayer
+  if (days[startIndex].count === 0) {
+    startIndex--;
+  }
+
+  for (let i = startIndex; i >= 0; i--) {
     if (days[i].count > 0) currentStreak++;
     else break;
   }
